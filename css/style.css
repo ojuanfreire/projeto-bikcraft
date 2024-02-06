@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
 }
 
 h1,
@@ -81,6 +82,7 @@ img {
   gap: 0px 40px;
   max-width: 1160px;
   margin: 0px auto;
+  padding: 20px;
 }
 
 .start-container {
@@ -90,13 +92,13 @@ img {
 
 .start-container h1 {
   margin-bottom: 32px;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 1.125;
 }
 
 .start-container p {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #b2b2b2;
 }
@@ -128,6 +130,50 @@ img {
   border-radius: 5px;
 }
 
+/*Media Queries Introducao*/
+@media (max-width: 1200px) {
+  .start-container h1 {
+    font-size: 3rem;
+  }
+  .start-container p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .start-bg {
+    background: #111111;
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #ffffff;
+  }
+  .start {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .start-container {
+    padding-bottom: 0px;
+  }
+  .start-container h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  .start-container p {
+    margin-bottom: 16px;
+  }
+  .start img {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .start-container a {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+/*Media Queries Header*/
 @media (max-width: 800px) {
   .header {
     gap: 20px;
@@ -159,7 +205,7 @@ img {
     background-color: #111111;
     padding: 8px 12px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
