@@ -3,14 +3,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+h1,
+ul,
+p {
   margin: 0px;
+}
+
+ul {
   padding: 0px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+
+  /*herdando a cor do pai*/
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header-bg {
@@ -98,4 +111,56 @@ a {
   .header-menu {
     flex-direction: column;
   }
+}
+
+.start-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.start {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  max-width: 1160px;
+  margin: 0px auto;
+}
+
+.start-container {
+  align-self: center;
+  margin-bottom: 80px;
+}
+
+.start-container h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.start-container p {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+
+.start-container span {
+  color: #ffbb00;
+}
+
+.start-container a {
+  display: inline-block;
+  text-transform: uppercase;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  padding: 16px 32px;
+  border-radius: 5px;
+  color: #332200;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.start-container a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
