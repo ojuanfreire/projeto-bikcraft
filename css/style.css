@@ -1,4 +1,6 @@
 @import "./global/global.css";
 @import "./global/header.css";
 @import "./home/start.css";
-@import "./components/components.css";
+@import "./items/components.css";
+@import "./items/typography.css";
+@import "./items/colors.css";

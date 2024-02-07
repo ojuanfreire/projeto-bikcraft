@@ -1,0 +1,13 @@
+.text-64 {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.text-24 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 400;
+}
