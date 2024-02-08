@@ -69,12 +69,3 @@
     border-radius: 5px;
   }
 }
-
-@media (max-width: 300px) {
-  .header {
-    flex-direction: column;
-  }
-  .header-menu {
-    flex-direction: column;
-  }
-}
