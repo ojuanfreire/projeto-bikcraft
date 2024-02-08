@@ -4,9 +4,6 @@
 }
 
 .bikes-list h2 {
-  max-width: 1160px;
-  padding: 0px 20px;
-  margin: 0 auto;
   margin-bottom: 40px;
 }
 
@@ -15,6 +12,12 @@
   gap: 40px;
   max-width: 1440px;
   margin: 0px auto;
+  overflow: auto;
+}
+
+.bikes-list-container li {
+  flex: 1;
+  min-width: 280px;
 }
 
 .bikes-list-container a {
@@ -47,4 +50,14 @@
 
 .bikes-list-container li span {
   margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bikes-list {
+    padding-bottom: 60px;
+  }
+
+  .bikes-list-container {
+    gap: 20px;
+  }
 }

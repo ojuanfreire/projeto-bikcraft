@@ -7,9 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1160px;
-  margin: 0px auto;
-  padding: 20px;
 }
 
 .start-container {
