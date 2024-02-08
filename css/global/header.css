@@ -21,10 +21,7 @@
 .header-menu a {
   display: inline-block;
   padding: 20px 0px;
-  font-size: 1.125rem;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header-menu a:after {
@@ -73,7 +70,6 @@
     background-color: var(--c-11);
     padding: 8px 12px;
     border-radius: 5px;
-    font-size: 0.875rem;
   }
 }
 

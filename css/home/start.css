@@ -31,15 +31,6 @@
   border-radius: 5px;
 }
 
-@media (max-width: 1200px) {
-  .start-container h1 {
-    font-size: 3rem;
-  }
-  .start-container p {
-    font-size: 1.125rem;
-  }
-}
-
 @media (max-width: 800px) {
   .start-bg {
     background: var(--c-11);
@@ -54,7 +45,6 @@
     padding-bottom: 0px;
   }
   .start-container h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
   .start-container p {
