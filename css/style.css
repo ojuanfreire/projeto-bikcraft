@@ -1,8 +1,16 @@
+/* Global */
 @import "./global/global.css";
-@import "./items/colors.css";
-@import "./items/typography.css";
 @import "./global/header.css";
+
+/* Items */
+@import "./items/colors.css";
 @import "./items/components.css";
+@import "./items/typography.css";
+
+/* Home*/
 @import "./home/start.css";
 @import "./home/technology.css";
+@import "./home/partnership.css";
+
+/* Bikes */
 @import "./bikes/bikes-list.css";
