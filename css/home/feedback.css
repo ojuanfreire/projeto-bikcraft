@@ -1,0 +1,58 @@
+.feedback {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--p-1);
+  overflow: hidden;
+}
+
+.feedback img {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feedback-container {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+
+.feedback-container p {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 32px;
+  max-width: 32ch;
+  position: relative;
+}
+
+.feedback p::before,
+.feedback p::after {
+  font-size: 5rem;
+  color: var(--p-2);
+  position: absolute;
+}
+
+.feedback p::before {
+  content: "“";
+  top: -20px;
+  left: -50px;
+}
+
+.feedback p::after {
+  content: "”";
+}
+
+@media (max-width: 800px) {
+  .feedback {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .feedback img {
+    max-height: 200px;
+  }
+  .feedback-container {
+    padding: 40px 20px;
+    justify-items: center;
+  }
+}

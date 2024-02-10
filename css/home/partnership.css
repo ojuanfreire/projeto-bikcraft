@@ -44,6 +44,9 @@
   .partnership-list {
     grid-template-columns: 1fr 1fr;
   }
+  .partnership-list li {
+    padding: 20px;
+  }
   .partnership-list li:nth-child(n + 3) {
     border-top: 2px solid var(--c-2);
   }
