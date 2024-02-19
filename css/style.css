@@ -1,6 +1,7 @@
 /* Global */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Items */
 @import "./items/colors.css";
