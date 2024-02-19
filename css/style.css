@@ -19,3 +19,6 @@
 
 /* Insurance */
 @import "./insurance/insurance.css";
+
+/* Terms */
+@import "./terms/terms.css";
