@@ -23,7 +23,7 @@
   place-self: start end;
   margin-top: 20px;
   background-color: var(--c-12);
-  display: inline block;
+  display: inline-block;
   padding: 8px 16px 8px 8px;
   border-radius: 5px 0 0 5px;
 }
