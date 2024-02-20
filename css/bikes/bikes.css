@@ -76,7 +76,7 @@
 
 @media (max-width: 800px) {
   .bikes-bg {
-    background-color: var(--c-11);
+    background: var(--c-11);
   }
   .bikes {
     grid-template-columns: 1fr;

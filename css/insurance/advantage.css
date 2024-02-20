@@ -1,0 +1,34 @@
+.advantage-bg {
+  background-color: var(--c-12);
+}
+
+.advantage {
+  padding: 120px 0px;
+}
+
+.advantage h2 {
+  margin-bottom: 60px;
+}
+
+.advantage ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.advantage h3,
+.advantage img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .advantage {
+    padding: 60px 0px;
+  }
+  .advantage h2 {
+    margin-bottom: 40px;
+  }
+  .advantage ul {
+    padding: 20px;
+  }
+}
