@@ -1,5 +1,6 @@
 .start-bg {
-  background-color: var(--c-12);
+  background: var(--c-12) url("../../img/dec/bottom-left.svg") no-repeat bottom
+    160px left 20px;
   box-shadow: inset 0px -120px var(--c-0);
 }
 
