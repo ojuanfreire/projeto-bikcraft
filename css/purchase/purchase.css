@@ -40,3 +40,21 @@
   border-radius: 0 5px 5px 0;
   background: var(--c-0);
 }
+
+.purchase-product label {
+  background: #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+
+.purchase-content {
+  padding: 20px;
+  background: #222;
+  margin: 20px;
+  display: none;
+}
+
+#bikcraft:checked ~ #purchase-bikcraft,
+#insurance:checked ~ #purchase-insurance {
+  display: block;
+}
