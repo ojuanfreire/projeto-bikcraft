@@ -42,3 +42,23 @@ function questionsEvent(question) {
 }
 
 questions.forEach(questionsEvent);
+
+// Galeria de Bicicletas
+const gallery = document.querySelectorAll(".bike-images img");
+const galleryContainer = document.querySelector(".bike-images");
+
+function changeImage(event) {
+  const image = event.currentTarget;
+
+  const media = matchMedia("(min-width: 1000px)").matches;
+
+  if (media) {
+    galleryContainer.prepend(image);
+  }
+}
+
+function eventGallery(image) {
+  image.addEventListener("click", changeImage);
+}
+
+gallery.forEach(eventGallery);
