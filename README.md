@@ -26,7 +26,7 @@
 
 ### Primeira forma
 
-Acesse o projeto pelo seguinte link: ![Projeto Bikcraft](https://ojuanfreire.github.io/projeto-bikcraft/))
+Acesse o projeto pelo seguinte link: [Projeto Bikcraft](https://ojuanfreire.github.io/projeto-bikcraft/))
 
 ### Segunda forma
 ```bash
