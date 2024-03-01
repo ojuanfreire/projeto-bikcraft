@@ -49,11 +49,11 @@
   transform: rotate(180deg);
 }
 
-.questions dd {
+.js .questions dd {
   display: none;
 }
 
-.questions dd.open {
+.js .questions dd.open {
   display: block;
 }
 
