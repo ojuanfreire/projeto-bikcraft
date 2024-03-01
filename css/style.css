@@ -8,6 +8,7 @@
 @import "./items/components.css";
 @import "./items/typography.css";
 @import "./items/form.css";
+@import "./items/animations.css";
 
 /* Home*/
 @import "./home/start.css";
