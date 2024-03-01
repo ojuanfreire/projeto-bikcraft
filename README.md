@@ -26,7 +26,7 @@
 
 ### Primeira forma
 
-Acesse o projeto pelo seguinte link: [Projeto Bikcraft](https://ojuanfreire.github.io/projeto-bikcraft/))
+Acesse o projeto pelo seguinte link: [Projeto Bikcraft](https://ojuanfreire.github.io/projeto-bikcraft/)
 
 ### Segunda forma
 ```bash
@@ -35,6 +35,6 @@ Acesse o projeto pelo seguinte link: [Projeto Bikcraft](https://ojuanfreire.gith
 
   cd projeto-bikcraft
 ```
-
+-
   Após isso, utilize a ferramente Live Server para executar o projeto em um servidor local.
   
